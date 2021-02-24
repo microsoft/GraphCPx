@@ -7,11 +7,11 @@
 #
 @{
     ModuleVersion = '1.0.0.0'
-    GUID = '66b56aa7-cee1-47bf-8198-c31da333ad1d'
+    GUID = '704deea9-0582-48e2-91bb-ac6dd798f317'
     Author = 'Microsoft Corporation'
     CompanyName = 'Microsoft Corporation'
     Copyright = '(c) 2015-2021 Microsoft Corporation. All rights reserved.'
-    Description = 'This DSC module is used to extract the DSC Configuration of existing environments.'
+    Description = 'Set of PowerShell Utility functions used by the Graph CPx team.'
     PowerShellVersion = '4.0'
     NestedModules = @("GraphCPx.AzureADApplication.psm1")
     CmdletsToExport = @()
@@ -20,7 +20,7 @@
     PrivateData = @{
         PSData = @{
 
-            Tags = @('Microsoft Graph')
+            Tags = @('MicrosoftGraph')
 
             # A URL to the license for this module.
             LicenseUri = ''
@@ -29,7 +29,7 @@
             ProjectUri = 'https://Github.com/Microsoft/GraphCPx'
 
             # A URL to an icon representing this module.
-            IconUri = 'https://github.com/Microsoft/GraphCPx/blob/master/Images/GraphPoSh.png?raw=true'
+            IconUri = 'https://github.com/microsoft/GraphCPx/raw/main/Images/PowerShellGraphSDK.png?raw=true'
 
             ReleaseNotes = '
             * Major cleanup of solution and refactoring of help content;'

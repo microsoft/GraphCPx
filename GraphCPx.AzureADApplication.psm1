@@ -15,6 +15,7 @@
     # Dynamically build the consent URL based on the user's domain name (from UPN) and provided App Id;
     $TenantId = $Credential.UserName.Split('@')[1]
     $url = "https://login.microsoftonline.com/$tenantId/adminconsent?client_id=$ApplicationId"
+    Write-Verbose -Message "[DYNAMIC URL]: $url"
 
     # GGenerate a new browser object, and navigate to the app consent's url;
     $ie = New-Object -Com InternetExplorer.Application
